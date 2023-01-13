@@ -1,0 +1,6 @@
+iter eig_calls avg_grad_value rmse_fragment_rho runtime 
+iter eig_calls avg_grad_value rmse_fragment_rho runtime 
+iter eig_calls avg_grad_value rmse_fragment_rho runtime 
+iter eig_calls avg_grad_value rmse_fragment_rho runtime 
+iter eig_calls avg_grad_value rmse_fragment_rho runtime 
+iter eig_calls avg_grad_value rmse_fragment_rho runtime 
