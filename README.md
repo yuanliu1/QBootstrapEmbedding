@@ -18,14 +18,8 @@ The repo is composed of several files:
    * <code>vmc</code>: <code>bootstrap_embedding_vmc_H8.py</code> is the main script to perform classical bootstrap embedding using variational Monte Carlo as a solver, which serves as benchmark as compared to quantum bootstrap embedding.
    * <code>vqe</code>: QBE using variational quantum eigensolver as fragment solver. <code>H4_runner_vqe.py</code> is QBE+VQE for H<sub>4</sub> molecules, while <code>ToyModel_runner_vqe.py</code> is QBE+VQE for a top model composed of a 4 spin system which is splitted as two fragments with each of them having 3 spins. <code>plot_jobs.ipynb</code> is some plot utility. Different subfolders with name <code>h4_linear_vqe*.ipynb</code> and <code>toymodel_linear_vqe_gd_001</code> are the generated running results for H4 and for the toy model. Note that in all QBE+VQE, only linear constraint is used.
 
-
-## Code Design
-
-
 ## Requirements
-
-
-
+See <code>environment.yml</code> for the dependencies and packages needed to run the codes.
 
 ## Citation
 
