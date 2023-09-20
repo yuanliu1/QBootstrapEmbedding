@@ -398,11 +398,11 @@ def read_ints_from_file(mol_name, read_ints_basis = 'MO'):
     print('***' + index1e + '***')
     
     if read_ints_basis == 'LO':
-      r1 = h5py.File('../integrals/' + mol_name + 'lo_h1.h5','r')
-      r2 = h5py.File('../integrals/' + mol_name + 'lo_eri_file.h5','r')
+      r1 = h5py.File('integrals/' + mol_name + 'lo_h1.h5','r')
+      r2 = h5py.File('integrals/' + mol_name + 'lo_eri_file.h5','r')
     elif read_ints_basis == 'MO':
-      r1 = h5py.File('../integrals/' + mol_name + 'h1.h5','r')
-      r2 = h5py.File('../integrals/' + mol_name + 'eri_file.h5','r')
+      r1 = h5py.File('integrals/' + mol_name + 'h1.h5','r')
+      r2 = h5py.File('integrals/' + mol_name + 'eri_file.h5','r')
     h1 = numpy.array(r1.get(index1e))
     h2 = numpy.array(r2.get(index2e))
     symm = 1 # change to 1 for no symmetry
